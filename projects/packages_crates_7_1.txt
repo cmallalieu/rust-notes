@@ -1,0 +1,15 @@
+CRATES AND PACKAGES
+
+- A crate is a binary or library
+- The Crate Root is the source file that the compiler starts from, makes up root module
+
+- A package is one or more crates that provide a set of functionality
+- A package contains a cargo.toml file that describes how to build the crates
+- A package must contain zero or 1 library, no more 
+- A package can contain as many binbary crates but must contain at least 1
+
+To create a package run 
+`cargo new {project-name}`
+
+- src/main.rs will be the create root of a binary crate with the same name as the package
+- src/lib.rs will be the library crate with the same name as the package
